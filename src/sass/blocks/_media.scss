@@ -1,0 +1,16 @@
+@media (max-width: 991px) {
+  .container {
+    padding: 0 20px 0 20px;
+  }
+  .promo {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 575px) {
+}
