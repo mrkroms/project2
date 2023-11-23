@@ -1,0 +1,28 @@
+.review {
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    img {
+      width: 169px;
+      height: 169px;
+      margin-right: 60px;
+    }
+    &__text__title {
+      color: #0d0d0d;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    &__text__subtitle {
+      color: #646464;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    &__text__descr {
+      color: #0d0d0d;
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+}
