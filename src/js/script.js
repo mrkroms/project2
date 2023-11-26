@@ -112,4 +112,7 @@ $(document).ready(function () {
   validForms("#consultation-form");
   validForms("#consultation form");
   validForms("#order form");
+
+  // маска ввода номера с помощью плагина. убираем type number в формах, чтоб это работало.
+  $("input[name = phone]").mask("+7 (999) 999-9999");
 });
