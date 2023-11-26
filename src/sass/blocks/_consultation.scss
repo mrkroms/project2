@@ -7,4 +7,14 @@
     font-size: 20px;
     font-weight: 500;
   }
+  .error {
+    color: #fff;
+    text-align: center;
+    opacity: 0.6;
+    border: 1px solid $main-color;
+    margin-bottom: 10px;
+  }
+  label.error {
+    border: none;
+  }
 }

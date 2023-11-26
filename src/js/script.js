@@ -65,4 +65,51 @@ $(document).ready(function () {
   $(".modal__close").on("click", function () {
     $(".overlay, #consultation, #order, #thanks").fadeOut();
   });
+
+  // валидация форм с помощью плагина.
+
+  //   $("#consultation-form").validate();
+  // в id consultation есть form, к ней применяем rules(позволяет настраивать каждое поле под определенные правила)
+  //   $("#consultation form").validate({
+  //     rules: {
+  //       name: "required",
+  //       phone: "required",
+  //       email: {
+  //         required: true,
+  //         email: true,
+  //       },
+  //     },
+  //     messages: {
+  //       name: "Пожалуйста, введите ваше имя",
+  //       phone: "Пожалуйста, введите ваш номер телефона",
+  //       email: {
+  //         required: "Пожалуйста, введите вашу почту",
+  //         email: "Ваша почта должна быть в таком формате: name@domain.com",
+  //       },
+  //     },
+  //   });
+  //   $("#order form").validate();
+  function validForms(form) {
+    $(form).validate({
+      rules: {
+        name: "required",
+        phone: "required",
+        email: {
+          required: true,
+          email: true,
+        },
+      },
+      messages: {
+        name: "Пожалуйста, введите ваше имя",
+        phone: "Пожалуйста, введите ваш номер телефона",
+        email: {
+          required: "Пожалуйста, введите вашу почту",
+          email: "Ваша почта должна быть в таком формате: name@domain.com",
+        },
+      },
+    });
+  }
+  validForms("#consultation-form");
+  validForms("#consultation form");
+  validForms("#order form");
 });

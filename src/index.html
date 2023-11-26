@@ -18,8 +18,11 @@
       type="text/javascript"
       src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
     ></script>
+
     <script src="js/slick.min.js"></script>
+
     <script defer src="js/script.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
   </head>
   <body>
     <section class="promo">
@@ -108,7 +111,7 @@
           Просто заполните форму заявки<br />
           и мы перезвоним вам в течении 10 минут
         </div>
-        <form class="feed-form" action="#" method="post">
+        <form id="consultation-form" class="feed-form" action="#" method="post">
           <input name="name" required type="text" placeholder="Ваше имя" />
           <input
             name="phone"
