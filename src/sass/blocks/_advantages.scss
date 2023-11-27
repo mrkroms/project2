@@ -36,4 +36,16 @@
       text-decoration-line: underline;
     }
   }
+  &__heart {
+    // animation-name: heartbeat;
+    // animation-duration: 2s;
+    // animation-play-state: paused;
+
+    &:hover {
+      animation-name: heartbeat;
+      animation-duration: 2s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+    }
+  }
 }
