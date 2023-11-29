@@ -184,27 +184,27 @@
   }
 }
 
-.button {
-  font-size: 12px;
-  width: 140px;
-  height: 30px;
-  &_main {
-    font-size: 14px;
-    width: 250px;
-    height: 45px;
-  }
-  &_submit {
-    width: 100%;
-    height: 55px;
-    font-size: 16px;
-  }
-}
-.feed-form {
-  margin-top: 36px;
-  display: flex;
-  flex-direction: column;
-  width: 240px;
-}
+// .button {
+//   font-size: 12px;
+//   width: 140px;
+//   height: 30px;
+//   &_main {
+//     font-size: 14px;
+//     width: 250px;
+//     height: 45px;
+//   }
+//   &_submit {
+//     width: 100%;
+//     height: 55px;
+//     font-size: 16px;
+//   }
+// }
+// .feed-form {
+//   margin-top: 36px;
+//   display: flex;
+//   flex-direction: column;
+//   width: 240px;
+// }
 
 #consultation,
 #order,
@@ -345,17 +345,17 @@
       }
     }
   }
-  .button {
-    &_mini {
-      font-size: 14px;
-      width: 125px;
-      height: 38px;
-    }
-    &:hover {
-      box-shadow: 3px 3px 20px $main-color;
-      border: none;
-    }
-  }
+  // .button {
+  //   &_mini {
+  //     font-size: 14px;
+  //     width: 125px;
+  //     height: 38px;
+  //   }
+  //   &:hover {
+  //     box-shadow: 3px 3px 20px $main-color;
+  //     border: none;
+  //   }
+  // }
   .footer {
     height: 330px;
     &__map {
